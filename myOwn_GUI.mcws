@@ -1,0 +1,96 @@
+{
+	"version": "2.8.0",
+	"components": [
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "Drive_Enable",
+			"variable": [
+				{
+					"symbol": "drive_enable",
+					"address": 872416180,
+					"size": 1,
+					"type": "_Bool",
+					"baseType": "_Bool",
+					"parent": "<root>"
+				}
+			],
+			"maxVariables": 1,
+			"rotateSwitcher": false,
+			"positiveValue": 1,
+			"negativeValue": 0,
+			"topLabel": "Off",
+			"bottomLabel": "On",
+			"componentType": "buttonSwitch",
+			"position": [
+				8,
+				25
+			],
+			"componentIndex": 1,
+			"lockedTo": -1,
+			"size": [
+				7,
+				6
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				6,
+				2
+			],
+			"maxSize": [
+				15,
+				10
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "Poti",
+			"variable": [
+				{
+					"symbol": "gVar_Poti",
+					"address": 872417176,
+					"size": 4,
+					"type": "uint32_t",
+					"baseType": "long unsigned int",
+					"parent": "<root>"
+				}
+			],
+			"maxVariables": 1,
+			"orientation": "horizontal",
+			"lowerLimit": 0,
+			"upperLimit": 4095,
+			"noTicks": 11,
+			"isDisplayPercentage": true,
+			"triggerEvent": "Change",
+			"componentType": "sliderComponent",
+			"position": [
+				2,
+				24
+			],
+			"componentIndex": 2,
+			"lockedTo": -1,
+			"size": [
+				6,
+				14
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				6,
+				4
+			],
+			"maxSize": [
+				6,
+				40
+			]
+		}
+	],
+	"definitions": [],
+	"tabs": [
+		"Workspace1"
+	],
+	"deviceName": "PSC3xxF",
+	"elfPath": "..\\build\\last_config\\mtb-example-ce240786-empty-app.elf"
+}
